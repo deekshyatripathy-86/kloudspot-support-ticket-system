@@ -1,0 +1,57 @@
+.heading-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.assignment-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 8px 0 12px;
+}
+
+.assignment-controls select,
+.ticket-edit-form input,
+.ticket-edit-form textarea,
+.ticket-edit-form select {
+  width: 100%;
+  border: 1px solid #e9eaf2;
+  border-radius: 8px;
+  padding: 9px 10px;
+  color: #555970;
+  font-size: 12px;
+}
+
+.edit-ticket-button {
+  margin: 4px 0 12px;
+}
+
+.ticket-edit-form {
+  display: grid;
+  gap: 10px;
+  margin: 8px 0 16px;
+}
+
+.ticket-edit-form label {
+  display: grid;
+  gap: 6px;
+  color: #85899e;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.ticket-edit-form .primary {
+  justify-self: start;
+}
+
+@media (max-width: 700px) {
+  .heading-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .filters {
+    flex-wrap: wrap;
+  }
+}
